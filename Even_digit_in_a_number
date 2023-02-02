@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Evendigit {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        while(num!=0){
+            int a=num%10;
+            if(a%2==0){
+                System.out.println(a+"");
+            }
+            num=num/10;
+        }
+    }
+}
